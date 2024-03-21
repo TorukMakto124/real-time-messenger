@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lp": "nodemon longpulling.js",
     "start:es": "nodemon eventsource.js",
-    "start:ws": "nodemon websocket.js",
-    "start": "node websocket.js"
+    "start:ws": "nodemon websocket2.js",
+    "start": "node websocket2.js"
   },
   "keywords": [],
   "author": "",

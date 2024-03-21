@@ -6,4 +6,4 @@ RUN npm install
 COPY . ./
 USER node
 EXPOSE 5000
-CMD [ "npm", "start:ws"]
+CMD [ "npm", "start"]
