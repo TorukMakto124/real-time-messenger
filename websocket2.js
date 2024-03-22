@@ -1,5 +1,3 @@
-// import socketDB from './websocketDB.js';
-// const websocketDB = require('./websocketDB.js');
 const websocketDB = [];
 const ws = require('ws');
 

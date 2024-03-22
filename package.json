@@ -7,16 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lp": "nodemon longpulling.js",
     "start:es": "nodemon eventsource.js",
-    "start:ws": "nodemon websocket2.js",
-    "start": "node websocket2.js"
+    "start:ws": "nodemon websocketAES.js",
+    "start": "node websocketAES.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
     "express": "^4.18.2",
-    "nodemon": "^3.0.3",
     "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

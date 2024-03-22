@@ -1,9 +1,8 @@
-FROM node:18.16.0-alpine3.17
+FROM node:21.7.1-alpine3.19
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
 COPY package.json package-lock.json ./
 RUN npm install
 COPY . ./
-USER node
-EXPOSE 5000
-CMD [ "npm", "start"]
+EXPOSE 25495
+CMD ["npm", "start"]
